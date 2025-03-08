@@ -88,8 +88,6 @@ def wypisz_imiona():
     for index, name in enumerate(names, 1):
         print(f"Zadanie 3c: {index}. {name}")
 
-# wypisz_imiona()  # Odkomentuj do testowania interaktywnego
-
 # d
 def potegi_dwojki(n):
     for i in range(n + 1):
