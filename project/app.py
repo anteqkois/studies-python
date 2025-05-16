@@ -6,6 +6,7 @@ from plotting import plot_global_trend, plot_mortality_rate
 
 st.set_page_config(page_title="COVID-19 Analysis", layout="wide")
 st.title("Analiza danych COVID-19")
+st.subheader("Antoni Kois, Adam Kot IiE niestacjonarne gr.2")
 
 # Pobieranie i przetwarzanie danych
 cases_data, vaccines_data = fetch_covid_data()
